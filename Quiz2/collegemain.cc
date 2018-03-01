@@ -1,3 +1,9 @@
+/*
+	@file collegemain.cc
+	@author John Dolan
+	@addindex main
+*/
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.
@@ -101,6 +107,14 @@ int main(){
 return 0;
 }
 
+/*******************************************************************************
+Function:
+menu()
+Type:
+int
+@param none
+@return int
+*******************************************************************************/
 int menu(){
     int choice;
     cout<<"Choose from the following options:\n";
@@ -115,4 +129,3 @@ int menu(){
 
     return choice;
 }
-

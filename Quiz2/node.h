@@ -1,3 +1,9 @@
+/*
+	@headerfile node.h "node.h"
+	@author John Dolan
+	@addindex node
+*/
+
 /*************************************************************************
       This file is borrowed heavily from Main/Savitch "Data Structures and
       Other Object Using C++," Chapter 5. It features a node class that 

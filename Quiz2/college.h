@@ -1,3 +1,9 @@
+/*
+	@headerfile college.h "college.h"
+	@author Matthew Aberegg
+	@addindex college
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3

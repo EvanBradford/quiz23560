@@ -1,3 +1,9 @@
+/*
+	@headerfile course.h "course.h"
+	@author John Dolan
+	@addindex course
+*/
+
 /***********************************************************************8
 	This class stores the three essential features of a completed 
 	college course: the course number, the grade received, and the 

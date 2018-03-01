@@ -1,3 +1,9 @@
+/*
+	@file college.cc
+	@author Matthew Aberegg
+	@addindex colegeImp
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3

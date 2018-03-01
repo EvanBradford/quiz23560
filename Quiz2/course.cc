@@ -1,3 +1,8 @@
+/*
+	@file course.cc
+	@author John Dolan
+	@addindex courseImp
+*/
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.
@@ -10,10 +15,25 @@
 #include<string>
 using namespace std;
 
+/*******************************************************************************
+Function:
+course()
+Type:
+constructor
+@param none
+@return none
+*******************************************************************************/
 course::course(){
     hours = 0.0;
 }
-
+/*******************************************************************************
+Function:
+input()
+Type:
+void
+@param istream ins
+@return none
+*******************************************************************************/
 void course::input(std::istream& ins){
     if(ins == cin){
 	cout<<"Course Number: ";
@@ -38,7 +58,14 @@ void course::input(std::istream& ins){
     	ins>>hours;
     }
 }
-
+/*******************************************************************************
+Function:
+output()
+Type:
+void
+@param ostream outs
+@return none
+*******************************************************************************/
 void course::output(std::ostream& outs)const{
     if(outs == cout){
 	outs<<"Course Number:"<<course_number<<endl;
@@ -52,7 +79,14 @@ void course::output(std::ostream& outs)const{
       }
 }
 
-
+/*******************************************************************************
+Function:
+get_number_grade()
+Type:
+double const
+@param none
+@return double
+*******************************************************************************/
 double course::get_number_grade()const{
     if(grade == "A") return 4.0;
     if(grade == "A-") return 3.667;
@@ -68,7 +102,14 @@ double course::get_number_grade()const{
     if(grade == "F") return 0.0;
     else return 0;
 }
-
+/*******************************************************************************
+Function:
+set_course()
+Type:
+void
+@param string, string, double
+@return none
+*******************************************************************************/
 void course::set_course(std::string num, std::string grad, double hrs){
 	course_number = num;
 	grade = grad;

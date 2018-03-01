@@ -1,3 +1,8 @@
+/*
+	@headerfile tarray.h "tarray.h"
+	@author John Dolan
+	@addindex tarray
+*/
 /*********************************************************************
 	This is a class to introduce you to the syntax of working with 
 	template classes. Notice that the type being stored is completely
